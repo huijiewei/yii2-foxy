@@ -1,0 +1,23 @@
+{
+  "name": "huijiewei/yii2-foxy",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@outlook.com"
+    }
+  ],
+  "require": {
+    "composer-plugin-api": "^1.1|^2.0",
+    "foxy/foxy": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\foxy\\" : "src"
+    }
+  },
+  "extra": {
+    "class": "huijiewei\\foxy\\FoxyPlugin"
+  }
+}
